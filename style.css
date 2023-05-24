@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500&display=swap');
+
+*{
+    margin: 0;    
+    font-family: 'Hanken Grotesk', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color:rgb(215, 224, 215);
+} 
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px;
+
+}
+
+.img{
+    margin-top: 4px;
+    border-radius: 20px 0 0 20px;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    padding: 51px 50px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    border-radius: 0 20px 20px 0px;
+}
+
+.conteudo h1{
+    font-size: 40px;
+    margin-right: 50px;
+}
+
+.text {
+    font-size: 20px;
+    color: rgb(122, 122, 122);
+}
+
+.perfume {
+    position: absolute;
+    padding: 20px 0;
+    top: 170px;
+    font-size: 16px;
+    letter-spacing: 9px;
+    color: rgb(122, 122, 122);
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.price h1{
+    color: rgb(9, 109, 9);
+    font-size: 45px;
+}
+
+.price h2{
+    position: absolute;
+    right: 612px;
+    font-size: 17px;
+    margin-right: 50px;
+    color: gray;
+    text-decoration: line-through;
+}
+
+.icon {
+    margin-right: 8px;
+    align-items: center;
+
+}
+
+.button {
+    color: white;
+    background-color: rgb(83, 124, 89);
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+.anc {
+    color: inherit;
+    padding: 20px 85px;
+}
+
+button:hover {
+    background-color: rgb(56, 83, 60);
+    transition: 0.5s;
+}
+
+@media(max-width: 450px) {
+    .container{
+        flex-direction: column;
+    }
+}
