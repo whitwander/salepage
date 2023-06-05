@@ -15,7 +15,6 @@ body {
     justify-content: center;
     align-items: center;
     margin: 150px;
-
 }
 
 .img{
@@ -24,15 +23,14 @@ body {
 }
 
 .conteudo {
+    gap: 20px;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     background-color: white;
     width: 300px;
     height: 500px;
-    padding: 51px 50px;
-    padding-top: 60px;
-    padding-bottom: 40px;
+    padding: 3.35em 3em 3em 3em;
     border-radius: 0 20px 20px 0px;
 }
 
@@ -46,10 +44,8 @@ body {
     color: rgb(122, 122, 122);
 }
 
-.perfume {
-    position: absolute;
-    padding: 20px 0;
-    top: 170px;
+.perfume {  
+    margin-top: -30px;
     font-size: 16px;
     letter-spacing: 9px;
     color: rgb(122, 122, 122);
@@ -68,8 +64,6 @@ body {
 }
 
 .price h2{
-    position: absolute;
-    right: 612px;
     font-size: 17px;
     margin-right: 50px;
     color: gray;
@@ -77,26 +71,22 @@ body {
 }
 
 .icon {
-    margin-right: 8px;
+    margin-right: 6px;
     align-items: center;
 
 }
 
 .button {
+    background-color: rgb(77, 117, 77);
+    padding: 15px 5px;
+    width: 90%;
+    text-align: center;
     color: white;
-    background-color: rgb(83, 124, 89);
-    padding: 15px;
-    border: none;
     border-radius: 10px;
-    
+    margin-left: 10px;
 }
 
-.anc {
-    color: inherit;
-    padding: 20px 85px;
-}
-
-button:hover {
+.button:hover {
     background-color: rgb(56, 83, 60);
     transition: 0.5s;
 }
